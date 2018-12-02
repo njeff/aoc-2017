@@ -1,0 +1,15 @@
+set b 109900
+set c 126900
+set f 1
+set d 2
+sub d -1
+set g d
+sub g b
+jnz f 2
+sub h -1
+set g b
+sub g c
+jnz g 2
+jnz 1 3
+sub b -17
+jnz 1 -9
